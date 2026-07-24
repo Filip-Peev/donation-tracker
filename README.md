@@ -2,6 +2,12 @@
 
 A web app for tracking donated equipment (laptops, routers, tablets, etc.) and verifying their status at remote locations via QR codes.
 
+## Preview
+
+![App Screenshot](https://filip-peev.com/donation-tracker/images/appPreview1.webp)
+![App Screenshot](https://filip-peev.com/donation-tracker/images/appPreview2.webp)
+![App Screenshot](https://filip-peev.com/donation-tracker/images/appPreview3.webp)
+
 ## Requirements
 
 - Apache with PHP 8.0+
@@ -11,10 +17,12 @@ A web app for tracking donated equipment (laptops, routers, tablets, etc.) and v
 ## Installation
 
 1. Copy files to your Apache `htdocs` directory
-2. Open `http://localhost/donation-tracker/install.php` in your browser
-3. Enter your MySQL credentials and create an admin password
-4. The installer creates a `.env` file with your DB credentials
+2. Open `http://localhost/donation-tracker/` in your browser
+3. If not installed, you'll be automatically redirected to the installer — enter your MySQL credentials and create an admin password
+4. The installer creates a `.env` file with your DB credentials and sets up the database
 5. Done — you'll be redirected to the login page
+6. If already installed and logged in, you go straight to the admin dashboard
+7. If already installed but not logged in, you see the landing page with a login button
 
 ## Configuration
 
