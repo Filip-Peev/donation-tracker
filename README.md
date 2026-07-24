@@ -5,7 +5,9 @@ A web app for tracking donated equipment (laptops, routers, tablets, etc.) and v
 ## Preview
 
 ![App Screenshot](https://filip-peev.com/donation-tracker/images/appPreview1.webp)
+
 ![App Screenshot](https://filip-peev.com/donation-tracker/images/appPreview2.webp)
+
 ![App Screenshot](https://filip-peev.com/donation-tracker/images/appPreview3.webp)
 
 ## Requirements
